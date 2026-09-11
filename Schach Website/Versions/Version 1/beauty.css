@@ -1,0 +1,59 @@
+
+*{
+font-size: 20px;
+}
+
+h1{
+font-size: 40px;
+}
+h2{
+font-size: 30px;
+}
+
+.center{
+    text-align: center;
+    list-style-position: inside;
+}
+
+.gold{
+    color: #996515;
+    font-size: 50px;
+}
+
+/* CONTAINER 1 VORTEILE */
+
+
+.container{
+    display:flex;
+    align-items: center;
+    gap: auto;
+    max-width: 800px;
+    margin: auto;
+}
+    .text-side{
+        flex: 1;
+    }
+    .image-side{
+        flex:1.5;
+    }
+
+
+/* CONTAINER 2 NACHTEILE */
+
+
+.container2{
+    display:flex;
+    align-items:center;
+    gap: auto;
+    max-width: 800px;
+    margin:0 auto;
+}
+
+    .image-side2{
+        flex:1.5;
+    }
+
+    .text-side2{
+        flex:1;
+    }
+

@@ -1,0 +1,117 @@
+
+/* ALGEMEIN */
+    *{
+    font-size: 20px;
+    }
+
+    h1{
+    font-size: 40px;
+    }
+    h2{
+    font-size: 30px;
+    }
+
+    .center{
+        text-align: center;
+        list-style-position: inside;
+    }
+
+    #line{
+    width:30%;
+    }
+
+
+
+/* HEADER */
+    header{
+        display:flex;
+        flow-direction:crow;
+        background-color:#BEB7A4;
+    }
+
+    #header-item1{
+        flex-grow:1;
+    }
+    #header-item2{
+        flex-grow:1;
+    }
+
+    #header-item3{
+        flex-grow:1;
+    }
+
+
+
+#definition{
+    }
+
+/* ITEMS */
+
+    #main-container{
+    display:flex;
+    flex-direction: column;
+    }
+
+        #verbesserung{
+        display:flex;
+        align-items: center;
+        margin:auto;
+        }
+            #verbesserung-bild{
+            }
+            #verbesserung-text{
+            text-align:left;
+            }
+
+
+        #argumente{
+        display:flex;
+        }
+            #nichts1{
+            flex-grow:2;
+            }
+            #vorteile{
+            flex-grow:1;
+            display:flex;
+            align-items: center;
+            margin: auto;
+            }
+                .text-side{
+                flex: 1;
+                }
+                .image-side{
+                    flex:1.5;
+                }
+
+            #nachteile{
+            flex-grow:1;
+            display:flex;
+            align-items:center;
+            margin:auto;
+            }
+                .image-side2{
+                flex:1.5;
+                }
+                .text-side2{
+                flex:1;
+                }
+            #nichts2{
+            flex-grow:2;
+            }
+
+/* FOOTER */
+    footer{
+    display:flex;
+    flex-direction:row;
+    background-color:#E5FCF5;
+    }
+        #footer-links{
+        flex-grow:1;
+        text-align:left;
+        }
+
+        #footer-rechts{
+        flex-grow:1;
+        text-align:right;
+        }
+

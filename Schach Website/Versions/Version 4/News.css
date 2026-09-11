@@ -1,0 +1,304 @@
+/* PFLICHT */
+*{
+margin:0px;
+}
+/* TEXT SIZES */
+html{
+font-size: 20px;
+color:white;
+}
+    h1{
+    font-size:3rem;
+    color: #7289da
+    }
+        h2{
+        font-size:2rem;
+        color:#ffa447;
+        }
+            h3{
+            font-size:1.6rem;
+            font-weight:bold;
+            color:#7289da;
+            }
+                h4{
+                font-size:1.3rem;
+                font-weight:bold;
+                color:#ffa447;
+                }
+                    h5{
+                    font-size:1.1rem;
+                    font-weight:450;
+                    color: #CACACA;
+                    }
+                        h6{
+                        font-style:italic;
+                        font-size:1rem;
+                        font-weight:normal;
+                        }
+
+
+/* IMAGE SIZES */
+.big-picture{
+
+width:1400px;
+display:flex;
+margin-left: auto;
+margin-right:auto;
+}
+    .medium-picture{
+
+    width:400px;
+    }
+        .small-picture{
+
+        width:300px;
+        }
+            .logo{
+            width: 60px;
+            height: 60px;
+            border-radius:10px;
+            }
+
+/* ALGEMEINE SHORTCUTS */
+
+.unlink{
+text-decoration:none;
+color:inherit;
+}
+.center{
+text-align:center;
+align-items:center;
+list-style-position:inside;
+}
+
+.margin{
+margin-left:20px;
+margin-top:20px;
+}
+.line{
+width:97.5%;
+}
+.break{
+margin: 10px 0;
+margin-left:5px;
+}
+.bigBreak{
+margin: 15px 0;
+margin-left:5px;
+}
+
+
+
+/* LAYOUT SETTINGS*/
+
+html{
+background-color:#282b30;
+}
+
+    #website-layout{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+    }
+
+        #center-layout{
+        flex-grow:1;
+        order:2;
+        background-color:#424549;
+        padding-left: 30px;
+        padding-right: 30px;
+        }
+
+            header{
+            padding-top:10px;
+            display:flex;
+            justify-content: space-between;
+            background-color: #36393e;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 60%;
+            margin-left:20%;
+            }
+
+
+
+
+                .updater{
+                display:flex;
+                text-decoration:none;
+                color:inherit;
+                }
+                    .updater-image{
+                    }
+                    .updater-text{
+                    font-family:Lucida Console;
+                    color:white;
+                    margin: 20px 5px 10px 15px;
+                    }
+
+                    .updater-text:hover{
+                    color: #7289da;
+                    }
+
+                .schach{
+                font-family: Courier New;
+                }
+
+
+                .spielen{
+                font-family: Lucida Console;
+                text-decoration:none;
+                color:inherit;
+                display:flex;
+                }
+                    .spielen-text{
+                    font-family:Lucida Console;
+                    color:white;
+                    margin: 25px 10px 10px 10px;
+                    }
+                    .spielen-text:hover{
+                    color: #7289da;
+                    }
+                    .spielen-image{
+                    }
+
+            #first{
+            background-color: #36393e;
+            }
+                #first-text{
+                margin-left:50px;
+                margin-right:100px;
+                }
+                #mehr-info{
+                text-align:right;
+                }
+                #mehr-info:hover{
+                color: #7289da;
+                }
+
+
+/* Main points */
+
+/* Pro/Con */
+            #medium-2points{
+            background-color:#36393e;
+            }
+                #pro{
+                display:flex;
+                margin-left: 25px;
+                }
+                    #pro-text{
+                    margin: 25px 0px 0px 25px;
+                    }
+                #con{
+                display:flex;
+                margin-left:25px;
+                }
+                    #con-text{
+                    margin: 25px 0px 0px 25px;
+                    }
+/* Confused*/
+            #medium-point{
+            display:flex;
+            background-color:#36393e;
+            }
+                #meinung-image{
+                }
+                #meinung-text{
+                margin: 25px 0px 0px 25px;
+                }
+/* Top Spieler*/
+            #spieler{
+            background-color:#36393e;
+            }
+                #spieler-3{
+                display:flex;
+                justify-content:space-evenly;
+                }
+
+            #websites{
+            background-color:#36393e;
+            padding-left:40px;
+            padding-right:40px;
+            }
+                #chessCom{
+                height:auto;
+                width:100px;
+                float:right;
+                }
+
+            #merkmale{
+            background-color:#36393e;
+            }
+
+            #point{
+            display:flex;
+            margin-left: 50px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            }
+                #point{
+                align-items:center;
+                }
+                #point-text{
+                margin: 20px 0px 20px 20px;
+                }
+
+                #grid-layout{
+                display:grid;
+                grid-template-columns: 1fr 1fr;
+                padding-left:40px;
+                grid-template-areas:
+                    "point1 point2"
+                    "point3 point4"
+                }
+                #point1 {grid-area:point1; display:flex;}
+                #point2 {grid-area:point2; display:flex;}
+                #point3 {grid-area:point3; display:flex;}
+                #point4 {grid-area:point4; display:flex;}
+
+/* important games*/
+
+
+            #important-games{
+            color:white;
+            background-color:#36393e;
+            }
+
+            #games-container{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 3px;
+            text-align:center;
+            }
+                #game1{font-family: Lucida Console; text-decoration:none;color:inherit;}
+                #game2{font-family: Lucida Console; text-decoration:none;color:inherit;}
+                #game3{font-family: Lucida Console; text-decoration:none;color:inherit;}
+                #game4{font-family: Lucida Console;text-decoration:none;color:inherit;}
+                #game5{font-family: Lucida Console;text-decoration:none;color:inherit;}
+                #game6{font-family: Lucida Console;text-decoration:none;color:inherit;}
+
+/* footer*/
+            footer{
+            background-color:#36393e;
+            padding-top:10px;
+            padding-left:40px;
+            }
+                #footer-footer{
+                background-color:#7289da;
+                display:flex;
+                padding-top:10px;
+                padding-bottom:10px;
+                }
+                                #footer-left{
+                                flex-grow:1;
+                                padding-left:40px;
+                                }
+                                #footer-right{
+                                flex-grow:1;
+                                text-align:right;
+                                padding-right:40px;
+                                }
+

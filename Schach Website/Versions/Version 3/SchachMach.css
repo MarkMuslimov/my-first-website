@@ -1,0 +1,121 @@
+
+/* ALG*/
+*{
+color:white;
+font-size:1.5rem;
+}
+body{
+margin:0;
+background-color:#424549;
+}
+.center{
+    text-align: center;
+    list-style-position: inside;
+}
+
+/* TEXT SIZES*/
+html{
+font-size: 16px;
+margin:0;
+}
+h1{
+font-size:3rem;
+color: #7289da;
+}
+h2{
+font-size:2rem;
+color:#ffa447;
+}
+h3{
+color:#7289da;
+font-size:1.6rem;
+font-weight:bold;
+}
+
+
+
+/* IMG SIZES */
+.big-picture{
+width: 1000px;
+}
+.medium-picture{
+width:500px;
+}
+.small-picture{
+width:250px;
+}
+
+
+/* LAYOUT */
+
+#entireLayout{
+display:flex;
+}
+    #leftLayout{
+    order:1;
+    flex-grow:3;
+    background-color:#282b30;
+    }
+    #rightLayout{
+    order:3;
+    flex-grow:3;
+    background-color:#282b30;
+    }
+
+    #mainLayout{
+    order:2;
+    flex-grow:6;
+    background-color:#424549;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    }
+
+            #header{
+                    display:flex;
+                    flow-direction:crow;
+                    justify-content: space-between;
+            }
+                    #header-item1{
+                    }
+                    #header-item2{
+                    }
+                    #header-item3{
+                    }
+
+            #definition{
+            }
+
+            #main-container{
+            }
+                #main-improvement {
+                display:flex;
+                }
+                    #improvement-picture{
+                    }
+                    #improvement-text{
+                    }
+                #main-points{
+                display:flex;
+                flex-direction: row;
+                }
+                    #pros{
+                    flex-grow:1;
+                    display:flex;
+                    }
+                    #cons{
+                    flex-grow:1;
+                    display:flex;
+                    }
+
+
+            footer{
+            display:flex;
+            }
+                #footer-left{
+                flex-grow:1;
+                }
+                #footer-right{
+                flex-grow:1;
+                text-align:right;
+                }
